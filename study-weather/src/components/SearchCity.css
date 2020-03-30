@@ -1,0 +1,49 @@
+.searchWrapper {
+    margin: 0;
+    padding: 10px 10px 0 10px;
+}
+
+.searchWrapper button {
+    right: 10px;
+    position: absolute;
+}
+
+.searchWrapper a {
+    color: #000;
+}
+
+.recommend {
+    padding-top: 25px;
+    box-sizing: border-box;
+
+}
+
+.recommend p {
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.tag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.his {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.tagWrapper {
+    width: 112px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: #eee;
+    font-size: 12px;
+    margin: 4px 6px 2px 0;
+}
