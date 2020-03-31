@@ -174,7 +174,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => ({
     getCity(city) {
-        dispatch(actionCreators.getCity(city))
+        //dispatch(actionCreators.getCity(city))
+        actionCreators.getCity(city)(dispatch)
     },
     getInit() {
         dispatch(actionCreators.getInit())
